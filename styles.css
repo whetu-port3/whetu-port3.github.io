@@ -14,10 +14,10 @@ img {
   margin-right: auto;
   max-width: 100%;
   height: auto; 
-  background-position: center;
+  /*background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
+  position: relative;*/
 }
 
 /* Place text in the middle of the image */
