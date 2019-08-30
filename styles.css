@@ -3,7 +3,7 @@
   padding:0px;
 }
 
-body, html {
+body {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), url("/images/Whetu.JPG"));
   height: 100%;
   background-position: center;
