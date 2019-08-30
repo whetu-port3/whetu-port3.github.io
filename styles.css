@@ -4,13 +4,14 @@
 }
 
 body {
+  background-image: url("/images/Whetu.JPG");
   height: 100%;
 }
 
-img {
-  background-image: url("/images/Whetu.JPG");
+/* img {
   position: relative;
 }
+*/
 
 /* Place text in the middle of the image */
 .text {
@@ -19,6 +20,6 @@ img {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: grey;
+  color: white;
   font: 60px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
 }
