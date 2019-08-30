@@ -1,6 +1,7 @@
 * {
   margin:0px;
   padding:0px;
+  font: 60px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
 }
 
 body {
@@ -35,7 +36,7 @@ h1 {
 }
 
 p {
-  color: white;
+  color: black;
   font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
 }
 
@@ -57,13 +58,11 @@ p {
   background-color: grey; 
   linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
   padding: 20px 10px;
-  font: Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
 }
 
 .header a {
   float: left;
   color: white;
-  font: Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
   text-align: center;
   padding: 12px;
   font-size: 18px; 
