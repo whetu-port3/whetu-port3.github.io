@@ -10,7 +10,7 @@ body {
 img {
   background-image: url("/images/Whetu.JPG");
   background-size: cover;
-  position: relative;
+  position: center;
 }
 
 /* Place text in the middle of the image */
