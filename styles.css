@@ -23,12 +23,12 @@ img {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: yellow;
+  color: red;
   font: 60px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
 }
 
 .button {
-  background-color: yellow;
+  background-color: red;
   border: none;
   color: white;
   padding: 15px 32px;
