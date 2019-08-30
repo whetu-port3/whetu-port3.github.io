@@ -11,6 +11,8 @@ img {
   background-image: url("/images/Whetu.JPG");
   background-size: cover;
   position: center;
+  max-width: 100%;
+  height: auto;
 }
 
 /* Place text in the middle of the image */
