@@ -4,14 +4,14 @@
 }
 
 body {
-  background-image: url("/images/Whetu.JPG");
   height: 100%;
 }
 
-/* img {
+img {
+  background-image: url("/images/Whetu.JPG");
+  background-size: cover;
   position: relative;
 }
-*/
 
 /* Place text in the middle of the image */
 .text {
