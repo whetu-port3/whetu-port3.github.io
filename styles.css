@@ -9,11 +9,11 @@ body {
 
 img {
   background-image: url("/images/Whetu.JPG");
-  /*display: block;
+  display: block;
   margin-left: auto;
   margin-right: auto;
   max-width: 100%;
-  height: auto; */
+  height: auto; 
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -35,7 +35,7 @@ h1 {
 }
 
 p {
-  color: red;
+  color: white;
   font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
 }
 
@@ -61,7 +61,7 @@ p {
 .header a {
   float: left;
   color: white;
-  font: 60px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+  font: Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
   text-align: center;
   padding: 12px;
   text-decoration: none;
