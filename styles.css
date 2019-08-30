@@ -53,10 +53,15 @@ p {
   cursor: pointer;
 }
 
+.button:hover {
+  background-color: white;
+  color: red;
+}
+
 .header {
   overflow: hidden;
-  background-color: grey; 
-  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  background-color: grey;
+  background: rgba(0, 0, 0, 0.5);
   padding: 20px 10px;
 }
 
