@@ -9,11 +9,15 @@ body {
 
 img {
   background-image: url("/images/Whetu.JPG");
-  display: block;
+  /*display: block;
   margin-left: auto;
   margin-right: auto;
   max-width: 100%;
-  height: auto;
+  height: auto; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
 /* Place text in the middle of the image */
@@ -23,6 +27,14 @@ img {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+h1 {
+  color: red;
+  font: 60px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+}
+
+p {
   color: red;
   font: 60px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
 }
@@ -42,13 +54,14 @@ img {
 
 .header {
   overflow: hidden;
-  background-color: #f1f1f1;
+  background-color: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
   padding: 20px 10px;
 }
 
 .header a {
   float: left;
   color: white;
+  font: 60px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
   text-align: center;
   padding: 12px;
   text-decoration: none;
@@ -59,7 +72,7 @@ img {
 
 .header a:hover {
   background-color: #ddd;
-  color: white;
+  color: red;
 }
 
 @media screen and (max-width: 500px) {
