@@ -35,6 +35,11 @@ h1 {
   font: 60px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
 }
 
+h2 {
+  color: red;
+  font: 60px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+}
+
 p {
   color: black;
   font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
@@ -98,7 +103,6 @@ p {
 .item2 { grid-area: menu; }
 .item3 { grid-area: main; }
 .item4 { grid-area: right; }
-.item5 { grid-area: footer; }
 
 .grid-container {
   display: grid;
