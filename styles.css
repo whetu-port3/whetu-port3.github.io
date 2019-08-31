@@ -45,9 +45,9 @@ p {
   font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
 }
 
-ul {
+li {
   color: black;
-  font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+  font: 20px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
 }
 
 .button {
@@ -112,16 +112,12 @@ ul {
 .grid-container {
   display: grid;
   grid-template-areas:
-    'menu main main main right right'
-    'menu footer footer footer footer footer';
+    'menu main main main right right';
   grid-gap: 10px;
-  background-color: black;
   padding: 10px;
 }
 
 .grid-container > div {
-  background-color: grey;
   text-align: center;
   padding: 20px 0;
-  font-size: 30px;
 }
